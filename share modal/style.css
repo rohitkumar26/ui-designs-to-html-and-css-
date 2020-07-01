@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #636364;
+}
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ebebeb;
+  padding: 50px;
+  border-radius: 10px;
+  width: 60vh;
+  position: relative;
+}
+p {
+  margin-bottom: 10px;
+  color: #636364;
+  font-size: 13px;
+}
+h1 {
+  color: #343434;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.close {
+  color: orange;
+  font-size: 12px;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+.facebook {
+  background-color: #3b5998;
+  margin: 3px;
+}
+.twitter {
+  background-color: #70bcea;
+  margin: 3px;
+}
+.reddit {
+  background-color: #0b0d0d;
+  margin: 3px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
+}
+.has-text-bold {
+  font-weight: bold;
+}
+.close-button {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color: #636364;
+  display: block;
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

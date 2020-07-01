@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Muli", sans-serif;
+  background-color: #ecedf4;
+}
+p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7c7c86;
+  font-weight: 700;
+}
+p::first-letter {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  background-color: white;
+  border-radius: 10px;
+  width: 1000px;
+}
+.bt-border {
+  border-bottom: 0.5px solid #9798a2;
+}
+.beg {
+  color: #b4b4bb;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+}
+.right-container {
+  background-color: #ecedf4;
+  padding: 30px;
+  border-radius: 20px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.right-container a {
+  display: block;
+  text-decoration: none;
+  color: #2f3144;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+}
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.left-container,
+.right-container {
+  padding: 20px;
+}
+
+#all-course {
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.first-highlight {
+  background-color: black;
+  color: white;
+}
+.card {
+  padding: 10px;
+}

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7fc;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 70vh;
+  position: relative;
+}
+h1 {
+  font-size: 20px;
+
+  font-weight: bolder;
+}
+input[type="text"] {
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid #f3fbfb;
+  background-color: #f3fbfb;
+  color: #8c919c;
+}
+p {
+  font-size: 10px;
+  font-weight: 400;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+h2 {
+  font-size: 10px;
+  font-weight: 700;
+}
+.card {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #f3fbfb;
+  border-radius: 10px;
+}
+img {
+  border-radius: 50%;
+  height: 30px;
+  margin: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h2 {
+  margin-bottom: 0;
+}
+.info p {
+  margin-top: 0;
+}
+.card-container {
+  margin-top: 0;
+}
+button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border: 0;
+  color: #1b1e2a;
+  cursor: pointer;
+  background-color: white;
+  font-size: 17px;
+}
