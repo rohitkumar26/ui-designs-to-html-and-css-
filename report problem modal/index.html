@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report Problem Modal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="container">
+         <div class="closebtn"> <span class="myclose">X</span></div>
+         <div class="report">
+             <h1>What's happening</h1>
+              <p>check all that apply</p>
+              <div class="problems">
+                <input type="checkbox" name="videoprod" id="">
+                <label for="videoprod">Videos problem</label><br>
+                <span class="probleminfo">Blurry,cuts out or looks strange in some way.</span>
+              </div>
+              <div class="problems">
+                <input type="checkbox" name="soundprob" id="">
+                <label for="soundprob">sound problem</label><br>
+                <span class="probleminfo">Hard to hear,not matched wit video or missing in some part.</span>
+              </div>
+              <div class="problems">
+                <input type="checkbox" name="suborcapprob" id="">
+                <label for="suborcapprob">Subtitle or caption problem</label><br>
+                <span class="probleminfo">Missing,hard to read,not matched with sound,misspellings or poor translations.</span>
+              </div>
+              <div class="moreinfo">
+                  <h2>its something else</h1>
+                    <textarea name="moreproblem" id="txtarea" cols="30" rows="10" placeholder="let us know whats's going on"></textarea>
+              </div>
+              <button class="submit">submit report</button>
+              
+         </div>
+      </div>
+  </body>
+</html>
